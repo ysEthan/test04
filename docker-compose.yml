@@ -1,0 +1,5 @@
+services:
+  autoEmail:
+    build: .
+    volumes:
+      - '.:/app'
